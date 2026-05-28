@@ -240,16 +240,6 @@ The study covers the **Nairobi Watershed** (EPSG:32737 — UTM Zone 37S), encomp
 **Projection:** UTM Zone 37S (EPSG:32737)
 
 ---
-
-## Citation
-
-If you use this work please cite:
-
-```
-[Your Name] (2024). Flood Susceptibility Modelling — Nairobi Watershed, Kenya.
-GitHub: https://github.com/[your-username]/flood-risk-nairobi
-```
-
 ---
 
 ## Licence
