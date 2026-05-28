@@ -201,36 +201,8 @@ Full step-by-step instructions: [`qgis/QGIS_workflow_notes.md`](qgis/QGIS_workfl
 | WhiteboxTools no output | Remove spaces from path; ensure UTM projection |
 | WorldCover polygonize crashes QGIS | Resample to 30 m (Mode) first |
 
----
-
-## Deliverables
-
-| Stage | Deliverable | Status |
-|-------|------------|--------|
-| DEM Preprocessing | Filled DEM | Requires WhiteboxTools |
-| DEM Preprocessing | Flow Direction | Requires WhiteboxTools |
-| DEM Preprocessing | Flow Accumulation | Requires WhiteboxTools |
-| DEM Preprocessing | Streams | Requires WhiteboxTools |
-| Hydrological Modelling | River networks | QGIS Polygonize + Strahler |
-| Hydrological Modelling | Flow volumes | Zonal statistics on flow_acc |
-| Hydrological Modelling | Water volumes per segment | Field Calculator |
-| Terrain Analysis | Slope | ✅ GEE export |
-| Terrain Analysis | Reclassified slope | QGIS Reclassify |
-| Multi-Criteria Analysis | Flood hotspot zones (5 classes) | ✅ Jupyter notebook 2 |
-| Multi-Criteria Analysis | Flood hotspot polygons | QGIS Polygonize |
-| Multi-Criteria Analysis | Flood exposure (LULC overlay) | QGIS Intersection |
 
 ---
-
-## Documents
-
-| Document | Description |
-|----------|-------------|
-| `docs/Nairobi_Flood_Susceptibility_Report.docx` | High-level report: flood context, methodology, findings, funding case |
-| `docs/Flood_Model_Process_Documentation_v2.docx` | Full technical process record including all data challenges and resolutions |
-
----
-
 ## Study Area
 
 The study covers the **Nairobi Watershed** (EPSG:32737 — UTM Zone 37S), encompassing the major river basins that drain through Nairobi city including the Nairobi, Mathare, Ngong, and Gitathuru rivers.
