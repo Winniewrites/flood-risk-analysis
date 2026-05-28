@@ -90,12 +90,7 @@ flood_label_sar_nairobi.tif
 flood_frequency_gfd_nairobi.tif
 training_data_nairobi.csv
 ```
-
 > **Note:** Update the watershed asset path on line 9 to point to your own GEE asset:
-> ```javascript
-> var watershed = ee.FeatureCollection("projects/YOUR-PROJECT/assets/YOUR-ASSET");
-> ```
-
 ---
 
 ## Stage 2 — Jupyter Notebooks
