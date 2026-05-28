@@ -1,0 +1,37 @@
+# Data files — do not commit large rasters or CSVs
+*.tif
+*.tiff
+*.shp
+*.dbf
+*.shx
+*.prj
+*.cpg
+*.qpj
+*.csv
+*.pkl
+*.geojson
+
+# Keep the outputs folder but ignore its contents
+outputs/*
+!outputs/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# QGIS
+*.qgs~
+*.qgz~
