@@ -239,9 +239,6 @@ The study covers the **Nairobi Watershed** (EPSG:32737 — UTM Zone 37S), encomp
 **Output resolution:** 30 m  
 **Projection:** UTM Zone 37S (EPSG:32737)
 
----
----
-
 ## Licence
 
 MIT Licence — see `LICENSE` for details.  
